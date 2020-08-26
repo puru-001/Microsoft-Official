@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.body-style{
+    width: 90%;
+    margin: 0 auto;
+}
+.logostyle{
+    height: 30px;
+}
+/* Make the slider image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+.carousel-item{
+    position: relative;
+    z-index: 1;
+}
+.carousel-caption{
+    position: absolute;
+    top: 10%;
+    left: 7% !important;
+    
+}
+.carousel-caption h3{
+   text-align: left;
+   color: black;
+}
+.carousel-caption p{
+    text-align: left;
+    color: black;
+}
+.carousel-caption button{
+    text-align: left;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    left: 0;
+}
+/* card css starts here */
+main{
+    margin: 40px 0;
+}
+.card {
+    border: none !important;
+}
+.card-body{
+    padding: 5px 0 !important;
+}
+/* banner section css */
+.xbox{
+    width: 100%;
+    height: 450px;
+    background:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0)) , url("./images/images.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 0px 40px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+
+button{
+    color: black;
+    background: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.card2{
+    margin: 50px 0;
+}
+.socialsection{
+    margin-bottom: 40px;
+}
+.fa-youtube-play{
+    color: red;
+}
+.fa-facebook-official{
+    color: #425daa;
+}
+
+/* footer section css */
+footer{
+    background: #f2f2f2;
+    padding: 40px 0px;
+}
+footer li{
+    list-style: none;
+    font-size: 12px
+}
+footer a{
+    text-decoration: none;
+    color: #818181;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.footerbottom div p a{
+    text-decoration: none;
+}
